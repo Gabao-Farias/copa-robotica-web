@@ -1,0 +1,19 @@
+{
+	"appKey": "8nsr0fqqle2lgar1qpjg5brg1c9b63k7ekq6q1s7c503amcg1bg0tir2kp3u",
+	"authHost": null,
+	"authEndpoint": "/broadcasting/auth",
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": false,
+	"host": "tournament.app",
+	"port": "6001",
+	"referrers": [],
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": ""
+}

@@ -1,0 +1,79 @@
+div.jQBracket .team div.score {
+    visibility: hidden;
+    background: none;
+}
+
+div.jQBracket .team .label {
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    color: #CCC;
+    font-weight: normal;
+}
+
+div.jQBracket .team {
+    background-color: rgba(17, 17, 17, 0.85);
+    padding: 5px;
+}
+
+div.jQBracket .team:first-child {
+    border: 1px solid #333;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+div.jQBracket .team:nth-of-type(2) {
+    border: 1px solid #333;
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+div.jQBracket .connector, div.jQBracket div.connector div.connector, div.jQBracket.lr div.connector, div.jQBracket.lr div.connector div.connector {
+    border-color: #f3a00c;
+}
+
+div.jQBracket .team.lose {
+    background-color: rgba(60, 60, 60, 0.85);
+}
+
+div.jQBracket .team.highlightLoser {
+    background-color: rgba(120, 120, 120, 0.85);
+
+}
+
+div.jQBracket .team.highlightLoser .label {
+    color: #FFF;
+}
+
+div.jQBracket .team.highlightWinner {
+    background-color: rgba(243, 160, 12, 0.85);
+}
+
+div.jQBracket .team.highlightWinner .label {
+    color: #222;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #f3d113;
+}
+
+div.jQBracket .team.highlight, div.jQBracket .team:hover {
+    background-color: rgba(243, 160, 12, 0.85);
+}
+
+div.jQBracket .team.highlight .label, div.jQBracket .team:hover .label {
+    color: #222;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #f3d113;
+}
+
+div.jQBracket .team .bubble {
+    font-size: 20px;
+    height: 30px;
+    width: 40px;
+    right: -46px;
+    line-height: 30px;
+    text-align: center;
+}
+
+div.jQBracket .team .bubble.fourth {
+    display: none;
+}

@@ -1,0 +1,165 @@
+body {
+	background-color: #F0F0F0;
+}
+
+.panel-default {
+	border-color: #edf1f2;
+}
+
+.panel-default .panel-heading {
+	background-color: #f6f8f8;
+	border-color: #edf1f2;
+	color: #333333;
+}
+
+.wrapper {
+    margin: 20px;
+}
+
+.wrapper-md {
+	margin: 10px;
+}
+
+.wrapper-sm {
+	margin: 5px;
+}
+
+.panel-alert {
+    margin: 0;
+    border-radius: 0;
+}
+
+.foto-preview {
+	display: none;
+}
+
+.foto-preview {
+	margin-top: 5px;
+}
+
+.foto-preview-equipe img, .foto-preview-robo img {
+	width: 300px;
+}
+
+.foto-equipe {
+	width: 200px;
+}
+
+.foto-equipe-batalha-generator {
+	width: 100px;
+	height: 100px;
+}
+
+.foto-equipe-round {
+	width: 168px;
+}
+
+.batalha-versus {
+	font-size: 45px;
+	font-weight: bold;
+	float: left;
+	margin: 10px 0 0 20px;
+}
+
+.hbox {
+	width: 100%;
+	display: table;
+}
+
+.btn {
+	border-radius: 2px;
+}
+
+.font-thin {
+	font-weight: 100;
+}
+
+.font-bold {
+	font-weight: 600;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.heading-equipe {
+	margin-top: 10px;
+}
+
+hr.integrantes-separator {
+	margin: 5px 0 5px 0;
+}
+
+.action-button {
+	margin-top: 25px;
+}
+
+.glyphicon-margin-right {
+	margin-right: 3px;
+}
+
+#integrantes-container .integrante {
+	margin-bottom: 5px;
+}
+
+#integrantes-container .remove-integrante {
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.pagination {
+	margin: 0;
+}
+
+.row.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+.row.less-gutter {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.row.less-gutter > [class*='col-'] {
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.row.no-gutter {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.partida-control {
+	font-size: 70px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.partida-timer {
+	font-size: 80px;
+	text-align: center;
+}
+
+.partida-message {
+	font-size: 26px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.round-pontos {
+	font-weight: bold;
+}
+
+.bigger-font {
+	font-size: 18px;
+}
+
+.batalha-equipe-heading {
+	margin-top: 10px;
+}

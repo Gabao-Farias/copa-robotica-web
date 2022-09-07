@@ -1,0 +1,318 @@
+body {
+    background: #111111 url('/images/background.png') top center no-repeat fixed;
+    color: #CCC;
+}
+
+.panel.panel-dark {
+    background: none;
+    border: none;
+    font-size: 22px;
+}
+
+.row.no-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.panel.panel-dark .panel-body {
+    background-color: rgba(17, 17, 17, 0.85);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.panel.panel-dark .panel-heading {
+    background-color: #ffa90c;
+    border: 1px solid #ff8d00;
+    box-shadow: 0 1px 0 #fbd4a4 inset;
+    border-bottom: none;
+    color: #222;
+    text-shadow: 1px 1px 0 #fdcc90;
+    font-weight: bold;
+}
+
+.list-group.dark .list-group-item {
+    background-color: #222222;
+    border-color: #333;
+}
+
+.btn-default.dark {
+    background-color: #333;
+    border-color: #444;
+    color: #AAA;
+}
+
+.btn-default.dark.disabled {
+    background-color: #555;
+    border-color: #666;
+}
+
+.btn-default.dark:active {
+    background-color: #3a3a3a;
+    border-color: #4a4a4a;
+    color: #AAA;
+}
+
+img.foto-equipe-round {
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.versus-align {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.versus-container {
+    font-size: 40px;
+    background-color: rgba(17, 17, 17, 0.85);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 1px solid #444;
+    box-shadow: 0 -1px 0 #ffa90c inset;
+    text-shadow: 1px 1px 0 #ffa90c;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+.versus-container .text {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.batalha .versus-container {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.batalha .versus-container .text {
+    margin-top: 10px;
+}
+
+.batalha .panel {
+    font-size: 14px;
+}
+
+.media.dark {
+    margin: 0;
+}
+
+.media.dark .media-left, .media.dark .media-right {
+    margin: 0;
+    padding: 0;
+}
+
+.media.dark .media-body {
+    background-color: rgba(17, 17, 17, 0.85);
+    border-bottom-right-radius: 3px;
+}
+
+.media.dark .panel-body {
+    background: none;
+}
+
+.panel-heading.no-radius-left {
+    border-top-left-radius: 0;
+}
+
+.round-pontos, .won-rounds {
+    color: #ffa90c;
+}
+
+.panel-heading.bigger-font {
+    font-size: 18px;
+}
+
+.row.less-gutter {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.media.right .media-body {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 3px;
+    text-align: right;
+}
+
+.media.right .panel .panel-heading {
+    border-top-right-radius: 0;
+    border-top-left-radius: 3px;
+}
+
+.media.right img.foto-equipe-round {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.batalha img.foto-equipe-round {
+    border-radius: 0;
+    height: 180px;
+}
+
+.round-status-title {
+    text-shadow: 2px 2px 1px #000;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 35px;
+    text-align: center;
+}
+
+.partida-timer {
+    text-shadow: 2px 2px 2px #000;
+    font-weight: 300;
+    color: #FFF;
+    font-size: 120px;
+    text-align: center;
+    margin-top: -55px;
+}
+
+.partida-message {
+    text-shadow: 2px 2px 1px #000;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 45px;
+    text-align: center;
+    margin-top: -15px;
+}
+
+.table.dark {
+    background-color: rgba(34, 34, 34, 0.85);
+    font-size: 22px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #000;
+}
+
+.table.dark tr td {
+    border-color: #333;
+}
+
+.table.dark tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.alert.dark.alert-warning, .list-group.dark .list-group-item-warning {
+    background-color: #222;
+    border: none;
+    border-bottom: 1px solid #ffa90c;
+    color: #ffa90c;
+}
+
+.table.dark tr.highlight {
+    background-color: rgba(232, 175, 53, 0.6);
+    color: #222;
+    text-shadow: 1px 1px 0 #e8c370;
+}
+
+/*.table.dark tr.highlight:nth-of-type(odd) {*/
+    /*background-color: rgba(233, 152, 11, 0.6);*/
+/*}*/
+
+.table.dark tr.highlight td {
+    border-color: #b78e36;
+}
+
+.modal.dark {
+    font-size: 20px;
+}
+
+.modal.dark .modal-header {
+    background-color: #ffa90c;
+    border: 1px solid #ff8d00;
+    box-shadow: 0 1px 0 #fbd4a4 inset;
+    border-bottom: none;
+}
+
+.modal.dark .modal-header .modal-title {
+    color: #222;
+    text-shadow: 1px 1px 0 #fdcc90;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.modal.dark .modal-body {
+    background-color: #2A2A2A;
+    border-color: #3A3A3A;
+    color: #CCC;
+}
+
+.wHighlight {
+    font-weight: bold;
+}
+
+.dark .wHighlight {
+    font-weight: normal;
+    color: #ffa90c;
+}
+
+.media .media-left img.foto-equipe-chaveamento {
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 98px;
+}
+
+.media .media-right img.foto-equipe-chaveamento {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 98px;
+}
+
+.chaveamento {
+    margin-top: 20px;
+}
+
+.winners {
+    margin: 5px 0 0 0;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.winner-first {
+    color: #deb536;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.winner-second {
+    color: #dcdcdc;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.winner-third {
+    color: #cf7a22;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.vencedores-title, .chaveamento-title {
+    text-shadow: 2px 2px 1px #000;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0 30px 0;
+}
+
+.img-vencedor {
+    width: 350px;
+    height: 200px;
+}
