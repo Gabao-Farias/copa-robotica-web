@@ -41,5 +41,5 @@ import Echo from "laravel-echo"
 
 window.Echo = new Echo({
     broadcaster: 'socket.io',
-    host: 'http://tournament.app:6001'
+    host: 'http://localhost:6001'
 });
